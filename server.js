@@ -33,21 +33,28 @@ app.get('/dashboard.html', (req, res) => {
 // API route for submitting an application
 app.post('/api/application', (req, res) => {
   const application = req.body;
-
-  // Load existing applications from application.json (in 'data' folder)
+  
+  // Path to the applications file
   const applicationFilePath = path.join(__dirname, 'data', 'application.json');
-
+  
+  // Ensure the 'data' directory exists
+  const dataDir = path.join(__dirname, 'data');
+  if (!fs.existsSync(dataDir)) {
+    fs.mkdirSync(dataDir, { recursive: true });  // Create the directory if it doesn't exist
+  }
+  
+  // Read the existing applications file
   fs.readFile(applicationFilePath, 'utf8', (err, data) => {
     if (err && err.code !== 'ENOENT') {
       return res.status(500).json({ success: false, message: "Error reading file." });
     }
-
+    
     const applications = data ? JSON.parse(data) : [];
     
     // Add new application to the list
     applications.push(application);
-
-    // Save the updated applications to application.json (in 'data' folder)
+    
+    // Save the updated applications to the file
     fs.writeFile(applicationFilePath, JSON.stringify(applications, null, 2), (err) => {
       if (err) {
         return res.status(500).json({ success: false, message: "Error saving application." });
