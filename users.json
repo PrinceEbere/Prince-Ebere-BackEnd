@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1745532303035,
+    "name": "Prince Ebere",
+    "email": "snickersss22@gmail.com",
+    "password": "Ijeomas1@"
+  },
+  {
+    "id": 1745532428716,
+    "name": "Prince Ebere",
+    "email": "ihdiuudhsuih@gmail.com",
+    "password": "Ijeomas1@"
+  },
+  {
+    "id": 1745577798889,
+    "name": "Erica Dzifa Agbana",
+    "email": "erica.agbana@acity.edu.gh",
+    "password": "agbcosmetics"
+  },
+  {
+    "id": 1745597733771,
+    "name": "Hadiza Abdul Rahman",
+    "email": "hadiza.rhhh@gmail.com",
+    "password": "123456"
+  },
+  {
+    "id": "1745648951748",
+    "name": "Test User",
+    "email": "testuser@example.com",
+    "password": "TestPass123"
+  },
+  {
+    "id": "1745677717539",
+    "name": "Erica Agbana",
+    "email": "erica.agb22ana@acity.edu.gh",
+    "password": "1234"
+  },
+  {
+    "id": "1745677815397",
+    "name": "John Stockton",
+    "email": "john1s@gmail.com",
+    "password": "2345"
+  },
+  {
+    "id": "1745681375902",
+    "name": "cole palmer",
+    "email": "palmer@gmail.com",
+    "password": "chippychips"
+  },
+  {
+    "id": "1745682600268",
+    "name": "olivia ndonu",
+    "email": "olivia@gmail.com",
+    "password": "12345"
+  },
+  {
+    "id": "1745756563641",
+    "name": "bobo",
+    "email": "bobo@gmail.com",
+    "password": "123456"
+  }
+]

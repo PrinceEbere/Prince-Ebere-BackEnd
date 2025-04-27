@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1745677251737,
+    "studentId": "7980798",
+    "email": "snickersss22@gmail.com",
+    "roomType": "Double Room with AC",
+    "roomNumber": "14",
+    "reason": "s",
+    "status": "approved"
+  },
+  {
+    "id": 1745677771709,
+    "studentId": "1002230017822",
+    "email": "erica.agb22ana@acity.edu.gh",
+    "roomType": "Double Room with AC",
+    "roomNumber": "16",
+    "reason": "hh",
+    "status": "approved"
+  },
+  {
+    "id": 1745677838846,
+    "studentId": "100123000292222",
+    "email": "john1s@gmail.com",
+    "roomType": "Double Room with AC",
+    "roomNumber": "16",
+    "reason": "fqw",
+    "status": "rejected"
+  },
+  {
+    "id": 1745681423181,
+    "studentId": "3208328",
+    "email": "palmer@gmail.com",
+    "roomType": "Single Room with AC",
+    "roomNumber": "1",
+    "reason": "chippy",
+    "status": "rejected"
+  },
+  {
+    "id": 1745682638026,
+    "studentId": "100029",
+    "email": "olivia@gmail.com",
+    "roomType": "Single Room with AC",
+    "roomNumber": "6",
+    "reason": "uujgj",
+    "status": "approved"
+  },
+  {
+    "id": 1745756656433,
+    "studentId": "10022300115",
+    "email": "bobo@gmail.com",
+    "roomType": "Double Room with AC",
+    "roomNumber": "18",
+    "reason": "to sleep",
+    "status": "rejected"
+  }
+]

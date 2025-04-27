@@ -1,0 +1,23 @@
+{
+  "name": "hostel-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",  
+  "scripts": {
+    "start": "node server.js",   
+    "dev": "npx nodemon server.js",  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "nodemailer": "^6.10.1",
+    "nodemon": "^3.1.9",
+    "path": "^0.12.7"
+  },
+  "author": "",
+  "license": "ISC"
+}
