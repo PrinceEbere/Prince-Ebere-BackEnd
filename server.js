@@ -11,7 +11,7 @@ app.use(express.json()); // Parse JSON request bodies
 app.use(express.static(path.join(__dirname, 'public'))); // Serve static files from 'public' directory
 
 // Routes
-const authRoutes = require('./routes/auth');
+const authRoutes = require('./auth');  // Adjust the path if it's in a different location
 const applicationRoutes = require('./routes/application'); // If you have additional routes related to applications
 
 app.use('/api/auth', authRoutes);
